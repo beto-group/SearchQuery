@@ -20,7 +20,7 @@
   <hr>
 </div>
 
-![Search Query Walkthrough](https://raw.githubusercontent.com/beto-group/beto.assets/main/searchquery.clip.gif)
+![Search Query Walkthrough](assets/searchquery.clip.gif)
 
 <div align="center">
   <p>
