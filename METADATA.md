@@ -32,8 +32,4 @@ entry_point: SEARCH QUERY.md
 logic: src/SearchQuery.component.jsx
 ---
 
-# SEARCH QUERY METADATA
-
-This file contains the machine-readable packaging manifest and indexing properties for the **SEARCH QUERY** component. 
-
-By offloading the indexing tags here, the primary entry point `SEARCH QUERY.md` remains dedicated to user-facing custom view settings and interactive configuration.
+This file contains the machine-readable packaging manifest and indexing properties for this component.
