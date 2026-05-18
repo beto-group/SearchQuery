@@ -43,9 +43,15 @@ By utilizing Datacore's reactive query caching system and combining it with pure
 
 ---
 
-## 🚀 Quick Launch
-*   **Viewer Entry Point**: [SEARCH QUERY.md](SEARCH%20QUERY.md)
-*   **Logic Component**: [src/SearchQuery.component.jsx](src/SearchQuery.component.jsx)
-*   **Engineering Standards**: [CONTRIBUTION.md](CONTRIBUTION.md)
+## 📦 Directory Index & Components
 
-BETO.GROUP - create factotums...
+The package exposes the following compiled files:
+
+| File | Description |
+| :--- | :--- |
+| **[SEARCH QUERY.md](SEARCH%20QUERY.md)** | The main entry point designed to be loaded inside Obsidian canvases or workspace leaves. |
+| **[src/App.jsx](src/App.jsx)** | Main bootstrap application loader that resolves and wires the underlying views. |
+| **[src/SearchQuery.component.jsx](src/SearchQuery.component.jsx)** | High-fidelity React query layout component filtering notes by name content. |
+| **[METADATA.md](METADATA.md)** | Packaging manifest outlining indexing, target, and security configurations. |
+| **[CONTRIBUTION.md](CONTRIBUTION.md)** | Contributor architecture standards and local compilation guidelines. |
+| **[LICENSE.md](LICENSE.md)** | MIT open-source license. |
