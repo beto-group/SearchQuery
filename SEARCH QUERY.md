@@ -1,18 +1,7 @@
----
-queryPath: _RESOURCES
-initialSearchTerm: DATACORE.flexilis
-placeholderSearch: Search files in vault...
----
-
-# SEARCH QUERY
-
 ```datacorejsx
-const activeFileObj = (dc.app || app).vault.getAbstractFileByPath(dc.path);
-const activeFilePath = activeFileObj?.path || "";
-let folderPath = activeFilePath.substring(0, activeFilePath.lastIndexOf('/'));
-
+const currentFilePath = dc.useCurrentPath();
+const folderPath = currentFilePath ? currentFilePath.substring(0, currentFilePath.lastIndexOf("/")) : "";
 const AppModule = await dc.require(folderPath + "/src/App.jsx");
 const { View } = await AppModule({ folderPath, dc });
-
 return <View />;
 ```

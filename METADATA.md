@@ -1,35 +1,38 @@
 ---
 author: beto.group
+contributor: []
 version: 1.0.1
-id: search-query-101
-name: SEARCH QUERY
-description: A minimal, real-time search component that filters vault files by name using a text input.
+id: search-query-215
+name: SearchQuery
+description: A reactive search engine component for Obsidian vaults using Datacore, featuring instant keyword filtering and interactive file link results.
 status: stable
-complexity: plug-n-play
+complexity: core-ref
 category:
-  - Query Builder
-  - Data Visualizer
-  - Search
+  - visualizer
+tags:
+  - query
+  - search
+  - reactive
+  - input
+  - filter
 compatibility:
   - Obsidian >=1.5.0
-  - Datacore >=0.8.0
 repository:
   - https://github.com/beto-group/SearchQuery
-missing:
-  - Media-Showcase-Capture
+missing: []
 resources:
-  - search_query.webp
-  - searchquery.clip.gif
+  - assets/image/preview_1.webp
+  - assets/videos/preview.gif
 type: DatacoreComponent
 target: Datacore
 security:
-  - Sandboxed
+  - Vault
 storage:
-  - None
-network: Offline
-runtime: PureJS
+  - File
+network: Offline (No external connections)
+runtime: React
 entry_point: SEARCH QUERY.md
-logic: src/SearchQuery.component.jsx
+logic: src/App.jsx
 ---
 
 This file contains the machine-readable packaging manifest and indexing properties for this component.
