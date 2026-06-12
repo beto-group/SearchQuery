@@ -26,7 +26,7 @@ resources:
 type: DatacoreComponent
 target: Datacore
 security:
-  - Vault
+  - Sandboxed
 storage:
   - File
 network: Offline (No external connections)
